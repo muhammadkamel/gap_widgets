@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.1] - 2025-12-07
 
 ### Added
-- Initial release of `gap_plus` package
+- Initial release of `gap_widgets` package
 - `Gap` widget for fixed spacing in Flex layouts and scrollable views
   - Automatic direction detection in Row, Column, Flex, Wrap, and OverflowBar
   - Scroll direction detection in Scrollable widgets

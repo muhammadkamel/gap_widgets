@@ -1,6 +1,6 @@
 import 'package:flutter/rendering.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gap_plus/src/rendering/render_sliver_gap.dart';
+import 'package:gap_widgets/src/rendering/render_sliver_gap.dart';
 
 void main() {
   test('RenderSliverGap properties', () {

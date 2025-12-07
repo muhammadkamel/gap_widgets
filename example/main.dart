@@ -1,34 +1,34 @@
 import 'package:flutter/material.dart';
-import 'package:gap_plus/gap_plus.dart';
+import 'package:gap_widgets/gap_widgets.dart';
 
 void main() {
-  runApp(const GapPlusExampleApp());
+  runApp(const GapWidgetsExampleApp());
 }
 
-class GapPlusExampleApp extends StatelessWidget {
-  const GapPlusExampleApp({super.key});
+class GapWidgetsExampleApp extends StatelessWidget {
+  const GapWidgetsExampleApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Gap Plus Examples',
+      title: 'Gap Widgets Examples',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const GapPlusExamplesPage(),
+      home: const GapWidgetsExamplesPage(),
     );
   }
 }
 
-class GapPlusExamplesPage extends StatelessWidget {
-  const GapPlusExamplesPage({super.key});
+class GapWidgetsExamplesPage extends StatelessWidget {
+  const GapWidgetsExamplesPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Gap Plus Examples'),
+        title: const Text('Gap Widgets Examples'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),
       body: SingleChildScrollView(

@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gap_plus/gap_plus.dart';
-import 'package:gap_plus/src/rendering/render_gap.dart';
+import 'package:gap_widgets/gap_widgets.dart';
 
 void main() {
   testWidgets('Gap constructors', (WidgetTester tester) async {

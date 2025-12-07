@@ -1,6 +1,6 @@
-# gap_plus
+# gap_widgets
 
-[![pub package](https://img.shields.io/pub/v/gap_plus.svg)](https://pub.dev/packages/gap_plus)
+[![pub package](https://img.shields.io/pub/v/gap_widgets.svg)](https://pub.dev/packages/gap_widgets)
 
 Gap, MaxGap, and SliverGap widgets for spacing in Flex layouts (Row, Column, Wrap) and scrollable views. Auto-detects direction, supports cross-axis control and colors.
 
@@ -15,11 +15,11 @@ Gap, MaxGap, and SliverGap widgets for spacing in Flex layouts (Row, Column, Wra
 
 ## Installation
 
-Add `gap_plus` to your `pubspec.yaml`:
+Add `gap_widgets` to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  gap_plus: ^0.0.1
+  gap_widgets: ^0.0.1
 ```
 
 Then run:
@@ -33,7 +33,7 @@ flutter pub get
 ### Basic Gap in Row and Column
 
 ```dart
-import 'package:gap_plus/gap_plus.dart';
+import 'package:gap_widgets/gap_widgets.dart';
 
 // Horizontal spacing in a Row
 Row(
