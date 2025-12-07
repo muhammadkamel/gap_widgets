@@ -1,0 +1,13 @@
+name: gap_plus_example
+description: Example app for the gap_plus package.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  gap_plus:
+    path: ../
