@@ -1,6 +1,8 @@
 name: gap_plus
 description: Gap, MaxGap, and SliverGap widgets for spacing in Flex layouts (Row, Column, Wrap) and scrollable views. Auto-detects direction, supports cross-axis control and colors.
 version: 0.0.1
+homepage: https://github.com/muhammadkamel/gap_plus
+repository: https://github.com/muhammadkamel/gap_plus
 
 environment:
   sdk: ^3.10.3
